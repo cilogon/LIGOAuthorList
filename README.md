@@ -15,7 +15,24 @@ Twice per year, LIGO produces a list of authors that will be assigned to papers 
  6) An LSC member of former LSC member may petition to the spokesperson to be on the authorlist or may have their MOU PI do so on their behalf even if they do not meet requirements 2), 3) or 4).
 
 ### User story
-COU Group Managers (MOU group managers) will go to an "authorlist management" interface in COmanage. If the current date is between Feb 15 and Aug 15, the interface will show all current members of the MOU group and past members of the MOU group who left the group after August 15 of the previous year. If the current date is between Aug 15 and Feb 15, the interface will show all current member of the MOU group and past members of the MOU group who left the group after February 15 of the previous year. In either case, those who are currenty eligible to be authors for the upcoming author list will be indicated. Eligibility for the next authorlist will be calculated as follows:
-
+COU Group Managers (MOU group managers) will go to an "authorlist management" interface in COmanage. If the current date is between Feb 15 and Aug 15, the interface will show all current members of the MOU group and past members of the MOU group who left the group after August 15 of the previous year. If the current date is between Aug 15 and Feb 15, the interface will show all current member of the MOU group and past members of the MOU group who left the group after February 15 of the previous year. In either case, those who are currenty projected to be eligible to be authors for the upcoming author list will be indicated. Projected eligibility for the next authorlist will be calculated as follows:
+ - The person's current status (e.g. position), TWC and and LSC Research % will be assumed to be unchanged through to the date of the next author list
+ - The average TWC over the appropriate period must be 0.2 or greater
+ - If it is between August 15 and February 15
+   - the person must have joined prior to June 15 of the previous year
+   - the person must have an average LSC research percentage of at least 50% since June 15 of the previous year
+ - If it is between February 15 and August 15
+   - the person must have joined prior to December 15 of the previous year
+   - the person must have an average LSC reserach perscentage of at least 50% since December 15 of the previous year
+ 
+ As well as projected eligibility, for each person listed the start date, end date (if they have left the LSC), current TWC and current research percentage will be shown. For each person, there should be a button/checkbox/interface element that allows the COU group manager to petition to have the person added to the author list if they are not currently projected to be eligible and/or to be dropped from the author list if they are currently eligible. There should also be an indication of whether the petition is pending, rejected or successful.
+ 
+ The Publications and Presentation Committee chair and those delegated by them as Author List Managers should have a different interface. 
+ - should be able to handle add/drop petitions
+ - should be able to order insitutions
+ - should be able to generate a the required CSV files 
+ - shoud be able to preview the authorlist
+ 
+ 
 ## Open question
-1) Over what period is the MWC required to be 0.2? Averaged over the period since June 15 of the previous for the February list and over the period since Dec. 15 of the previous year for the August list? 
+ 1) Over what period is the TWC required to be 0.2? Averaged over the period since June 15 of the previous for the February list and over the period since Dec. 15 of the previous year for the August list? 
