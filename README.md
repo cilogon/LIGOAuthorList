@@ -42,6 +42,7 @@ The body of the report will include the following columns:
 - Author Name/Affiliations
 - username
 - ORCID
+
 There will be a "Download Authorlist" button which generates a CSV version of the above.
  
 ## Open questions
