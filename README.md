@@ -36,6 +36,13 @@ As well as projected eligibility, for each person listed the start date, end dat
 ### User Story: Generate Author List
 The CO or platform manager will generate a text report of all eligible members indicating authorship status. The user will indicate the end date of the time period in question (typically Feb or August 15) as well as options for sorting (by institution, by name, by authorship status), if non-authors should be included, and if verbose institution information should be included. 
 The body of the report will include the following columns:
+- Was author on previous list (check box)
+- Current member with MWC and LSC% exceeding threshold (check box)
+- Petition to be an author accepted (check box)
+- Author Name/Affiliations
+- username
+- ORCID
+There will be a "Download Authorlist" button which generates a CSV version of the above.
  
 ## Open questions
  1) Over what period is the TWC required to be 0.2? Averaged over the period since June 15 of the previous for the February list and over the period since Dec. 15 of the previous year for the August list? 
